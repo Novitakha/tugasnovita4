@@ -1,0 +1,128 @@
+* /* universal selectors */
+{
+    font-family: 'Trebuchet MS';
+}
+
+.box {
+    width: 1400px;
+    height: 100px;
+    padding: 25px;
+    border: 5px; color: solidgray;
+    margin: 25px;
+    text-align: justify;
+    font-size: 20px;
+    outline-style: solid;
+    outline-color: brown;
+    outline-offset: 5px;
+    background-color: wheat;
+}
+
+/* group selectors */
+
+h1, h2, h5 {
+    text-align: center;
+}
+
+h5 {
+    background-color: lightcoral;
+    color: whitesmoke;
+}
+
+/* class selectors */
+
+body {
+    background-color: beige;
+}
+
+h1 {
+    color: wheat;
+    background-color: brown;
+    margin-top: 48px;
+    margin-bottom: 70px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+p {
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    text-decoration: none;
+    text-indent: 32px;
+    line-height: 1.6;
+    border: 7px solid lightskyblue;
+    outline-color: pink;
+    outline-style: ridge;
+    outline-width: 10px;
+    outline-offset: 3px;
+    padding: 40px;
+    margin: 20px;
+}
+
+h2 {
+    background-color: wheat;
+    color: whitesmoke;
+    text-decoration: underline wavy palevioletred;
+    color: brown;
+    text-shadow: 2px 2px 5px whitesmoke ;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+a:link {
+    color: red;
+}
+a:hover {
+    color: hotpink;
+}
+a:visited {
+    color: brown;
+}
+a:active {
+    color: lightblue;
+}
+
+ul {
+    background-color: lightcoral;
+    padding: 20px;
+}
+
+ul li {
+    background-color: wheat ;
+    color: black;
+    margin: 5px;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+table {
+    width: 90%;
+    border-collapse: collapse;
+}
+tr :hover {background-color: yellowgreen;}
+
+th{
+    height: 50px;
+    width: 20px;
+    text-align: center;
+    background-color:burlywood ;
+}
+
+td {
+    height: 50px;
+    width: 20px;
+    text-align: center;
+
+}
+
+.icon {
+    font-size: 24px;
+    color: black;
+    margin: 10px;
+}
+
